@@ -1,0 +1,3 @@
+list1 = [2,3.75,.04,59.354,6,7.7777,8,9]
+onlyint = [number for number in list1 if type(number) == int]
+print(onlyint)
